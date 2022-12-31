@@ -1,0 +1,40 @@
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.vert-layout {
+    display: flex;
+    gap: 5px;
+}
+
+.display {
+    background-color: blanchedalmond;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calc-body {
+    /* border: 20px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.right-line {
+    display: flex;
+    flex-direction: column;
+}
