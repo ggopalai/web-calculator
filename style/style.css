@@ -16,10 +16,15 @@ body {
 .vert-layout {
     display: flex;
     gap: 7px;
+    padding: 30px 0px;
 }
 
 .display {
-    /* background-color: rgb(201, 219, 240); */
+    background-color: rgb(244, 246, 247);
+    border: 2px black solid;
+    width: 130px;
+    height: auto;
+    padding-left: 10px;
 }
 
 .numbers {
@@ -29,14 +34,14 @@ body {
 }
 
 #calc-body {
-    background-color: rgb(214, 214, 234);
+    background-color: rgb(227, 227, 235);
     border: 2px solid white;
     display: flex;
     flex-direction: column;
     padding: 10px;
     gap: 5px;
-    /* width: 170px;
-    height: 250px; */
+    width: 170px;
+    height: 250px;
     justify-content: space-evenly;
     align-items: center;
 }
